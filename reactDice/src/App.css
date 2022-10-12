@@ -1,0 +1,19 @@
+
+.Die {
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: inline-flex;
+    margin: 200px 20px 30px 20px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 10px 10px;
+}
+button {
+    margin: 0 0 0 50px;
+    width: 20%;
+    height: 30px;
+    font-weight: 700;
+}
