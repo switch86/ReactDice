@@ -4,13 +4,13 @@ import Die from "./Die.jsx"
 export default function DiceBox() {
     let nums = [0, 0, 0, 0, 0, 0]
     const [numbers, setNumbers] = React.useState(nums.map(num => {
-            return (Math.floor(Math.random() * 6))
+            return (Math.floor(Math.random() * 6 + 1))
         })
     )
 
     function Reroll() {
         setNumbers(nums.map(num => {
-            return (Math.floor(Math.random() * 6))
+            return (Math.floor(Math.random() * 6 + 1))
         }))
     }
     function handleClick() {

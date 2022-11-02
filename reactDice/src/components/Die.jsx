@@ -1,12 +1,9 @@
 export default function Die(props) {
-    let i = 0 
-    
     return (
         <div className="Dice">
-            {props.numbers.map(num => {
-                i++
+            {props.numbers.map((num, index) => {
                 return (
-                    <div className="Die" key={i}>{num}</div>
+                    <div className="Die" key={index}>{num}</div>
                 )
             })}
         </div>
