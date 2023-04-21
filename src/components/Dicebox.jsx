@@ -14,7 +14,7 @@ export default function DiceBox() {
         }))
     }
     function handleClick() {
-        
+        // add functionality
     }
 
     return (
